@@ -11,7 +11,7 @@ import dbConnect from "@/lib/db";
 import { generateRandomString, alphabet } from "oslo/crypto";
 import { NextResponse } from "next/server";
 
-const emails = ["mohdhashique10@gmail.com", "viswajithviswa715@gmail.com","jeraldjoyson21@gmail.com"];
+const emails = ["mohdhashique10@gmail.com", "viswajithviswa715@gmail.com","jeraldjoyson21@gmail.com","sabarisanthosh45@gmail.com"];
 
 export async function GET(request) {
   const url = new URL(request.url);
